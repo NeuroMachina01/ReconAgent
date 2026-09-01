@@ -1,0 +1,818 @@
+[
+  {
+    "invoice_id": "INV-2026-0098",
+    "amount": 232784.47,
+    "due_date": "2026-07-03",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "Employee uniform procurement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0055",
+    "amount": 18496.05,
+    "due_date": "2026-07-18",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Security services Q3 invoice",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0011",
+    "amount": 364698.84,
+    "due_date": "2026-06-21",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0070",
+    "amount": 348755.6,
+    "due_date": "2026-08-10",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "Annual software license renewal",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0084",
+    "amount": 75839.91,
+    "due_date": "2026-07-20",
+    "vendor_or_customer": "Mehta Fabrics",
+    "description": "Audit and compliance retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0067",
+    "amount": 462824.8,
+    "due_date": "2026-08-08",
+    "vendor_or_customer": "Joshi IT Solutions",
+    "description": "Freight charges — port to warehouse",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0049",
+    "amount": 408643.52,
+    "due_date": "2026-07-09",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Generator diesel refill",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0018",
+    "amount": 191118.83,
+    "due_date": "2026-07-30",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "Export documentation and customs fees",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0086",
+    "amount": 210361.69,
+    "due_date": "2026-08-14",
+    "vendor_or_customer": "Wipro Consumables",
+    "description": "Audit and compliance retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0080",
+    "amount": 445767.25,
+    "due_date": "2026-08-18",
+    "vendor_or_customer": "Bajaj Spares",
+    "description": "Catering for annual day event",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0065",
+    "amount": 298487.34,
+    "due_date": "2026-07-15",
+    "vendor_or_customer": "Gupta Traders",
+    "description": "Plumbing fixtures for site B",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0053",
+    "amount": 2271.07,
+    "due_date": "2026-06-17",
+    "vendor_or_customer": "Priya Exports Ltd",
+    "description": "Printed marketing materials",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0052",
+    "amount": 452715.58,
+    "due_date": "2026-06-07",
+    "vendor_or_customer": "Kapoor Chemicals",
+    "description": "Raw materials — steel rods batch 44",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0021",
+    "amount": 456357.61,
+    "due_date": "2026-08-20",
+    "vendor_or_customer": "Joshi IT Solutions",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0099",
+    "amount": 480413.39,
+    "due_date": "2026-08-21",
+    "vendor_or_customer": "Nitin Pharma",
+    "description": "Pest control quarterly service",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0003",
+    "amount": 325117.28,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Tata Components Ltd",
+    "description": "Pharma excipients order",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0009",
+    "amount": 50950.21,
+    "due_date": "2026-07-06",
+    "vendor_or_customer": "Birla Cement Supplies",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0102",
+    "amount": 332148.03,
+    "due_date": "2026-07-18",
+    "vendor_or_customer": "Bharat Auto Parts",
+    "description": "Canteen supplies Aug–Sep",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0083",
+    "amount": 356915.66,
+    "due_date": "2026-07-01",
+    "vendor_or_customer": "Sharma Electronics",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0043",
+    "amount": 60383.36,
+    "due_date": "2026-08-12",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0075",
+    "amount": 155554.52,
+    "due_date": "2026-06-26",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Annual software license renewal",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0073",
+    "amount": 221172.12,
+    "due_date": "2026-06-28",
+    "vendor_or_customer": "Patel Agro Foods",
+    "description": "Export documentation and customs fees",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0074",
+    "amount": 257968.28,
+    "due_date": "2026-08-21",
+    "vendor_or_customer": "Bharat Auto Parts",
+    "description": "HVAC maintenance annual contract",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0100",
+    "amount": 360177.29,
+    "due_date": "2026-08-02",
+    "vendor_or_customer": "Verma Industries",
+    "description": "Lab equipment calibration",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0048",
+    "amount": 142851.2,
+    "due_date": "2026-07-27",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Catering for annual day event",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0064",
+    "amount": 438580.69,
+    "due_date": "2026-07-04",
+    "vendor_or_customer": "Gupta Traders",
+    "description": "Electrical wiring Phase 2",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0060",
+    "amount": 393793.57,
+    "due_date": "2026-06-14",
+    "vendor_or_customer": "Anil Steels Pvt Ltd",
+    "description": "Construction cement batch delivery",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0087",
+    "amount": 471399.46,
+    "due_date": "2026-07-09",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "Employee uniform procurement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0045",
+    "amount": 358237.8,
+    "due_date": "2026-07-01",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0034",
+    "amount": 364242.69,
+    "due_date": "2026-06-14",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0082",
+    "amount": 388948.58,
+    "due_date": "2026-08-02",
+    "vendor_or_customer": "Bajaj Spares",
+    "description": "Printed marketing materials",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0057",
+    "amount": 125140.1,
+    "due_date": "2026-06-14",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "IT hardware — 20x laptops",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0079",
+    "amount": 124974.54,
+    "due_date": "2026-06-16",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0015",
+    "amount": 372622.0,
+    "due_date": "2026-08-08",
+    "vendor_or_customer": "Verma Industries",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0027",
+    "amount": 497577.1,
+    "due_date": "2026-08-23",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "IT hardware — 20x laptops",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0051",
+    "amount": 302612.5,
+    "due_date": "2026-07-14",
+    "vendor_or_customer": "Bharat Auto Parts",
+    "description": "Packaging materials — corrugated boxes",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0092",
+    "amount": 68734.93,
+    "due_date": "2026-07-19",
+    "vendor_or_customer": "Patel Agro Foods",
+    "description": "Warehouse rent July 2026",
+    "status": "partially_paid"
+  },
+  {
+    "invoice_id": "INV-2026-0072",
+    "amount": 416945.72,
+    "due_date": "2026-07-09",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0020",
+    "amount": 217665.24,
+    "due_date": "2026-07-29",
+    "vendor_or_customer": "Bharat Auto Parts",
+    "description": "Office supplies Q3 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0046",
+    "amount": 158430.51,
+    "due_date": "2026-06-10",
+    "vendor_or_customer": "Patel Agro Foods",
+    "description": "Office supplies Q3 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0042",
+    "amount": 40515.68,
+    "due_date": "2026-06-24",
+    "vendor_or_customer": "Joshi IT Solutions",
+    "description": "Raw materials — steel rods batch 44",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0010",
+    "amount": 177957.71,
+    "due_date": "2026-08-25",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0054",
+    "amount": 352980.89,
+    "due_date": "2026-08-11",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Office supplies Q3 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0044",
+    "amount": 328857.9,
+    "due_date": "2026-08-12",
+    "vendor_or_customer": "Nitin Pharma",
+    "description": "Export documentation and customs fees",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0095",
+    "amount": 62936.18,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "Printed marketing materials",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0061",
+    "amount": 408385.01,
+    "due_date": "2026-07-29",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "IT hardware — 20x laptops",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0050",
+    "amount": 58156.62,
+    "due_date": "2026-06-14",
+    "vendor_or_customer": "Kapoor Chemicals",
+    "description": "Plumbing fixtures for site B",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0032",
+    "amount": 203826.45,
+    "due_date": "2026-06-13",
+    "vendor_or_customer": "Godrej Fixtures",
+    "description": "Logistics forwarding Delhi–Mumbai",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0026",
+    "amount": 264073.06,
+    "due_date": "2026-08-17",
+    "vendor_or_customer": "Kapoor Chemicals",
+    "description": "Pharma excipients order",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0005",
+    "amount": 108049.22,
+    "due_date": "2026-07-14",
+    "vendor_or_customer": "Mehta Fabrics",
+    "description": "Logistics forwarding Delhi–Mumbai",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0008",
+    "amount": 35242.8,
+    "due_date": "2026-08-24",
+    "vendor_or_customer": "Tata Components Ltd",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0058",
+    "amount": 464975.57,
+    "due_date": "2026-06-21",
+    "vendor_or_customer": "Infosys Sub-Contracts",
+    "description": "Cloud hosting — AWS/GCP usage",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0066",
+    "amount": 449802.61,
+    "due_date": "2026-06-25",
+    "vendor_or_customer": "Sanjay Logistics",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0004",
+    "amount": 434715.51,
+    "due_date": "2026-06-21",
+    "vendor_or_customer": "Godrej Fixtures",
+    "description": "Audit and compliance retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0012",
+    "amount": 162479.23,
+    "due_date": "2026-06-08",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0022",
+    "amount": 381374.14,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Employee uniform procurement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0029",
+    "amount": 35961.05,
+    "due_date": "2026-08-20",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "Server maintenance Aug 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0101",
+    "amount": 396569.97,
+    "due_date": "2026-06-12",
+    "vendor_or_customer": "Patel Agro Foods",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0031",
+    "amount": 66589.77,
+    "due_date": "2026-08-13",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Security services Q3 invoice",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0019",
+    "amount": 442451.83,
+    "due_date": "2026-07-05",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Employee uniform procurement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0081",
+    "amount": 79999.37,
+    "due_date": "2026-07-31",
+    "vendor_or_customer": "Reliance Petro Stores",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0001",
+    "amount": 70199.2,
+    "due_date": "2026-06-14",
+    "vendor_or_customer": "Verma Industries",
+    "description": "Freight charges — port to warehouse",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0056",
+    "amount": 21393.51,
+    "due_date": "2026-07-17",
+    "vendor_or_customer": "Mehta Fabrics",
+    "description": "Pest control quarterly service",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0014",
+    "amount": 249866.01,
+    "due_date": "2026-08-22",
+    "vendor_or_customer": "Anand Precision Tools",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0063",
+    "amount": 320920.13,
+    "due_date": "2026-07-22",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Freight charges — port to warehouse",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0071",
+    "amount": 374193.21,
+    "due_date": "2026-06-23",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "HVAC maintenance annual contract",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0078",
+    "amount": 212860.52,
+    "due_date": "2026-06-23",
+    "vendor_or_customer": "Bajaj Spares",
+    "description": "Cloud hosting — AWS/GCP usage",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0007",
+    "amount": 189577.92,
+    "due_date": "2026-08-10",
+    "vendor_or_customer": "Infosys Sub-Contracts",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0006",
+    "amount": 423823.44,
+    "due_date": "2026-08-17",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Warehouse rent July 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0085",
+    "amount": 204095.89,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Nitin Pharma",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0017",
+    "amount": 55269.74,
+    "due_date": "2026-08-20",
+    "vendor_or_customer": "Birla Cement Supplies",
+    "description": "Electrical wiring Phase 2",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0091",
+    "amount": 88579.49,
+    "due_date": "2026-07-30",
+    "vendor_or_customer": "Anand Precision Tools",
+    "description": "Electrical wiring Phase 2",
+    "status": "partially_paid"
+  },
+  {
+    "invoice_id": "INV-2026-0002",
+    "amount": 15383.71,
+    "due_date": "2026-06-28",
+    "vendor_or_customer": "Priya Exports Ltd",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0039",
+    "amount": 463295.78,
+    "due_date": "2026-07-29",
+    "vendor_or_customer": "Kapoor Chemicals",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0023",
+    "amount": 10228.63,
+    "due_date": "2026-07-17",
+    "vendor_or_customer": "Khan Construction",
+    "description": "Pest control quarterly service",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0047",
+    "amount": 106970.58,
+    "due_date": "2026-07-04",
+    "vendor_or_customer": "Reddy Marine Services",
+    "description": "Annual software license renewal",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0097",
+    "amount": 11845.24,
+    "due_date": "2026-06-03",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "Freight charges — port to warehouse",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0038",
+    "amount": 432392.87,
+    "due_date": "2026-06-08",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "Electrical wiring Phase 2",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0088",
+    "amount": 110101.11,
+    "due_date": "2026-07-26",
+    "vendor_or_customer": "Khan Construction",
+    "description": "Canteen supplies Aug–Sep",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0013",
+    "amount": 33561.21,
+    "due_date": "2026-08-12",
+    "vendor_or_customer": "Kapoor Chemicals",
+    "description": "Pest control quarterly service",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0037",
+    "amount": 376905.97,
+    "due_date": "2026-07-01",
+    "vendor_or_customer": "Infosys Sub-Contracts",
+    "description": "Electrical wiring Phase 2",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0077",
+    "amount": 200126.61,
+    "due_date": "2026-06-19",
+    "vendor_or_customer": "Khan Construction",
+    "description": "Printed marketing materials",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0068",
+    "amount": 35451.92,
+    "due_date": "2026-08-25",
+    "vendor_or_customer": "Nitin Pharma",
+    "description": "Generator diesel refill",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0076",
+    "amount": 305831.35,
+    "due_date": "2026-06-10",
+    "vendor_or_customer": "Khan Construction",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0036",
+    "amount": 430743.88,
+    "due_date": "2026-08-10",
+    "vendor_or_customer": "Godrej Fixtures",
+    "description": "Logistics forwarding Delhi–Mumbai",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0062",
+    "amount": 330186.57,
+    "due_date": "2026-07-22",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "Textile dyeing chemicals lot 12",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0028",
+    "amount": 112736.32,
+    "due_date": "2026-07-14",
+    "vendor_or_customer": "Verma Industries",
+    "description": "Office supplies Q3 2026",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0094",
+    "amount": 19489.33,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "Raw materials — steel rods batch 44",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0024",
+    "amount": 439065.79,
+    "due_date": "2026-06-11",
+    "vendor_or_customer": "Verma Industries",
+    "description": "Raw materials — steel rods batch 44",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0089",
+    "amount": 339731.37,
+    "due_date": "2026-07-22",
+    "vendor_or_customer": "Ravi Office Supplies",
+    "description": "Plumbing fixtures for site B",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0069",
+    "amount": 450073.39,
+    "due_date": "2026-08-04",
+    "vendor_or_customer": "Mahindra Infra",
+    "description": "Machinery spare parts order #7891",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0096",
+    "amount": 50464.18,
+    "due_date": "2026-06-03",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0041",
+    "amount": 25546.1,
+    "due_date": "2026-08-01",
+    "vendor_or_customer": "Priya Exports Ltd",
+    "description": "Export documentation and customs fees",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0025",
+    "amount": 266586.73,
+    "due_date": "2026-06-17",
+    "vendor_or_customer": "Bajaj Spares",
+    "description": "Annual software license renewal",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0093",
+    "amount": 6062.68,
+    "due_date": "2026-08-09",
+    "vendor_or_customer": "Rajesh Enterprises",
+    "description": "IT hardware — 20x laptops",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0016",
+    "amount": 110050.72,
+    "due_date": "2026-06-18",
+    "vendor_or_customer": "Lakshmi Textiles",
+    "description": "Export documentation and customs fees",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0030",
+    "amount": 165549.03,
+    "due_date": "2026-08-05",
+    "vendor_or_customer": "Birla Cement Supplies",
+    "description": "Quarterly consulting retainer",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0033",
+    "amount": 205845.59,
+    "due_date": "2026-06-07",
+    "vendor_or_customer": "Nitin Pharma",
+    "description": "Freight charges — port to warehouse",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0040",
+    "amount": 148705.56,
+    "due_date": "2026-06-08",
+    "vendor_or_customer": "Sunita Packaging",
+    "description": "Security services Q3 invoice",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0035",
+    "amount": 211229.88,
+    "due_date": "2026-07-06",
+    "vendor_or_customer": "Mehta Fabrics",
+    "description": "Vehicle fleet fuel reimbursement",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0059",
+    "amount": 368413.95,
+    "due_date": "2026-07-13",
+    "vendor_or_customer": "Anil Steels Pvt Ltd",
+    "description": "Cloud hosting — AWS/GCP usage",
+    "status": "open"
+  },
+  {
+    "invoice_id": "INV-2026-0090",
+    "amount": 267294.75,
+    "due_date": "2026-07-21",
+    "vendor_or_customer": "Mohan Polymers",
+    "description": "Security services Q3 invoice",
+    "status": "open"
+  }
+]

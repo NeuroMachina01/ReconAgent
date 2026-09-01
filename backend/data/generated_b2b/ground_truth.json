@@ -1,0 +1,803 @@
+[
+  {
+    "payment_id": "PMT-0047",
+    "invoice_ids": [
+      "INV-2026-0046"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0056",
+    "invoice_ids": [
+      "INV-2026-0055"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0075",
+    "invoice_ids": [
+      "INV-2026-0074"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0087",
+    "invoice_ids": [
+      "INV-2026-0086"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0024",
+    "invoice_ids": [
+      "INV-2026-0023"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0077",
+    "invoice_ids": [
+      "INV-2026-0076"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0046",
+    "invoice_ids": [
+      "INV-2026-0045"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0052",
+    "invoice_ids": [
+      "INV-2026-0051"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0042",
+    "invoice_ids": [
+      "INV-2026-0041"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0034",
+    "invoice_ids": [
+      "INV-2026-0033"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0093",
+    "invoice_ids": [
+      "INV-2026-0092"
+    ],
+    "match_type": "partial",
+    "category": "partial"
+  },
+  {
+    "payment_id": "PMT-0006",
+    "invoice_ids": [
+      "INV-2026-0005"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0082",
+    "invoice_ids": [
+      "INV-2026-0081"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0055",
+    "invoice_ids": [
+      "INV-2026-0054"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0003",
+    "invoice_ids": [
+      "INV-2026-0002"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0058",
+    "invoice_ids": [
+      "INV-2026-0057"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0041",
+    "invoice_ids": [
+      "INV-2026-0040"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0067",
+    "invoice_ids": [
+      "INV-2026-0066"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0044",
+    "invoice_ids": [
+      "INV-2026-0043"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0026",
+    "invoice_ids": [
+      "INV-2026-0025"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0073",
+    "invoice_ids": [
+      "INV-2026-0072"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0011",
+    "invoice_ids": [
+      "INV-2026-0010"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0080",
+    "invoice_ids": [
+      "INV-2026-0079"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0014",
+    "invoice_ids": [
+      "INV-2026-0013"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0092",
+    "invoice_ids": [
+      "INV-2026-0091"
+    ],
+    "match_type": "partial",
+    "category": "partial"
+  },
+  {
+    "payment_id": "PMT-0059",
+    "invoice_ids": [
+      "INV-2026-0058"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0045",
+    "invoice_ids": [
+      "INV-2026-0044"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0008",
+    "invoice_ids": [
+      "INV-2026-0007"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0069",
+    "invoice_ids": [
+      "INV-2026-0068"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0097",
+    "invoice_ids": [
+      "INV-2026-0099"
+    ],
+    "match_type": "exact",
+    "category": "garbled_ref"
+  },
+  {
+    "payment_id": "PMT-0028",
+    "invoice_ids": [
+      "INV-2026-0027"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0083",
+    "invoice_ids": [
+      "INV-2026-0082"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0089",
+    "invoice_ids": [
+      "INV-2026-0088"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0074",
+    "invoice_ids": [
+      "INV-2026-0073"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0049",
+    "invoice_ids": [
+      "INV-2026-0048"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0023",
+    "invoice_ids": [
+      "INV-2026-0022"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0084",
+    "invoice_ids": [
+      "INV-2026-0083"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0068",
+    "invoice_ids": [
+      "INV-2026-0067"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0076",
+    "invoice_ids": [
+      "INV-2026-0075"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0065",
+    "invoice_ids": [
+      "INV-2026-0064"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0079",
+    "invoice_ids": [
+      "INV-2026-0078"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0043",
+    "invoice_ids": [
+      "INV-2026-0042"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0070",
+    "invoice_ids": [
+      "INV-2026-0069"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0072",
+    "invoice_ids": [
+      "INV-2026-0071"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0019",
+    "invoice_ids": [
+      "INV-2026-0018"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0001",
+    "invoice_ids": [],
+    "match_type": "orphan",
+    "category": "orphan"
+  },
+  {
+    "payment_id": "PMT-0085",
+    "invoice_ids": [
+      "INV-2026-0084"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0091",
+    "invoice_ids": [
+      "INV-2026-0090"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0022",
+    "invoice_ids": [
+      "INV-2026-0021"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0096",
+    "invoice_ids": [
+      "INV-2026-0098"
+    ],
+    "match_type": "exact",
+    "category": "garbled_ref"
+  },
+  {
+    "payment_id": "PMT-0051",
+    "invoice_ids": [
+      "INV-2026-0050"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0050",
+    "invoice_ids": [
+      "INV-2026-0049"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0018",
+    "invoice_ids": [
+      "INV-2026-0017"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0005",
+    "invoice_ids": [
+      "INV-2026-0004"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0009",
+    "invoice_ids": [
+      "INV-2026-0008"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0048",
+    "invoice_ids": [
+      "INV-2026-0047"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0033",
+    "invoice_ids": [
+      "INV-2026-0032"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0039",
+    "invoice_ids": [
+      "INV-2026-0038"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0013",
+    "invoice_ids": [
+      "INV-2026-0012"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0025",
+    "invoice_ids": [
+      "INV-2026-0024"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0010",
+    "invoice_ids": [
+      "INV-2026-0009"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0036",
+    "invoice_ids": [
+      "INV-2026-0035"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0030",
+    "invoice_ids": [
+      "INV-2026-0029"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0032",
+    "invoice_ids": [
+      "INV-2026-0031"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0061",
+    "invoice_ids": [
+      "INV-2026-0060"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0062",
+    "invoice_ids": [
+      "INV-2026-0061"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0054",
+    "invoice_ids": [
+      "INV-2026-0053"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0095",
+    "invoice_ids": [
+      "INV-2026-0096",
+      "INV-2026-0097"
+    ],
+    "match_type": "multi_invoice",
+    "category": "multi"
+  },
+  {
+    "payment_id": "PMT-0066",
+    "invoice_ids": [
+      "INV-2026-0065"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0038",
+    "invoice_ids": [
+      "INV-2026-0037"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0064",
+    "invoice_ids": [
+      "INV-2026-0063"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0020",
+    "invoice_ids": [
+      "INV-2026-0019"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0088",
+    "invoice_ids": [
+      "INV-2026-0087"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0060",
+    "invoice_ids": [
+      "INV-2026-0059"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0015",
+    "invoice_ids": [
+      "INV-2026-0014"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0029",
+    "invoice_ids": [
+      "INV-2026-0028"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0012",
+    "invoice_ids": [
+      "INV-2026-0011"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0053",
+    "invoice_ids": [
+      "INV-2026-0052"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0086",
+    "invoice_ids": [
+      "INV-2026-0085"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0002",
+    "invoice_ids": [
+      "INV-2026-0001"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0094",
+    "invoice_ids": [
+      "INV-2026-0093",
+      "INV-2026-0094",
+      "INV-2026-0095"
+    ],
+    "match_type": "multi_invoice",
+    "category": "multi"
+  },
+  {
+    "payment_id": "PMT-0040",
+    "invoice_ids": [
+      "INV-2026-0039"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0021",
+    "invoice_ids": [
+      "INV-2026-0020"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0031",
+    "invoice_ids": [
+      "INV-2026-0030"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0078",
+    "invoice_ids": [
+      "INV-2026-0077"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0100",
+    "invoice_ids": [
+      "INV-2026-0102"
+    ],
+    "match_type": "exact",
+    "category": "currency_rounding"
+  },
+  {
+    "payment_id": "PMT-0004",
+    "invoice_ids": [
+      "INV-2026-0003"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0016",
+    "invoice_ids": [
+      "INV-2026-0015"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0063",
+    "invoice_ids": [
+      "INV-2026-0062"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0090",
+    "invoice_ids": [
+      "INV-2026-0089"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0099",
+    "invoice_ids": [
+      "INV-2026-0101"
+    ],
+    "match_type": "exact",
+    "category": "timing_offset"
+  },
+  {
+    "payment_id": "PMT-0037",
+    "invoice_ids": [
+      "INV-2026-0036"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0017",
+    "invoice_ids": [
+      "INV-2026-0016"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0071",
+    "invoice_ids": [
+      "INV-2026-0070"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0035",
+    "invoice_ids": [
+      "INV-2026-0034"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0027",
+    "invoice_ids": [
+      "INV-2026-0026"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0007",
+    "invoice_ids": [
+      "INV-2026-0006"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0098",
+    "invoice_ids": [
+      "INV-2026-0100"
+    ],
+    "match_type": "exact",
+    "category": "timing_offset"
+  },
+  {
+    "payment_id": "PMT-0057",
+    "invoice_ids": [
+      "INV-2026-0056"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  },
+  {
+    "payment_id": "PMT-0081",
+    "invoice_ids": [
+      "INV-2026-0080"
+    ],
+    "match_type": "exact",
+    "category": "exact"
+  }
+]
