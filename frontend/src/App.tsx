@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { Activity, ShieldCheck, Zap, Database, BrainCircuit, UploadCloud, CheckCircle2, AlertTriangle, FileText, BarChart3, Clock, Network, ChevronRight } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Activity, ShieldCheck, Zap, Database, BrainCircuit, UploadCloud, CheckCircle2, AlertTriangle, BarChart3, Network, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { Receipt } from './components/Receipt';
 import { Toaster, toast } from 'sonner';
 

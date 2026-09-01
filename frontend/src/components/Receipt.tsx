@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export const Receipt = ({ trace }: { trace: any }) => {
   if (!trace) return null;
