@@ -403,6 +403,9 @@ def reason_all(
                 metrics_ref["layer2_resolved"] = len(resolved)
                 metrics_ref["total_reconciled"] = metrics_ref.get("total_reconciled", 0) + 1
 
+        import time
+        time.sleep(2.1)
+
     logger.info(
         "Layer 2 complete: %d resolved, %d exceptions",
         len(resolved), len(exceptions),
