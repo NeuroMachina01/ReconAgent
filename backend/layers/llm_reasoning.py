@@ -399,10 +399,6 @@ def reason_all(
                 metrics_ref["total_exceptions"] = metrics_ref.get("total_exceptions", 0) + 1
         else:
             resolved.append(decision)
-
-        # Throttling to bypass Groq Free Tier 30 RPM limit
-        import time
-        time.sleep(2.1)
             if metrics_ref is not None:
                 metrics_ref["layer2_resolved"] = len(resolved)
                 metrics_ref["total_reconciled"] = metrics_ref.get("total_reconciled", 0) + 1
