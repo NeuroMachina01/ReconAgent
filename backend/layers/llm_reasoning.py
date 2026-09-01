@@ -165,7 +165,7 @@ def _parse_llm_response(raw: str) -> dict | None:
     import re
     # Strip <think>...</think> blocks from reasoning models
     text = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL).strip()
-    print(f"RAW TEXT: {text}")
+    
     
     # Extract JSON object even if LLM chatters before/after
     match = re.search(r"\{.*\}", text, flags=re.DOTALL)
