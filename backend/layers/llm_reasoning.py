@@ -166,12 +166,10 @@ def _parse_llm_response(raw: str) -> dict | None:
     # Strip <think>...</think> blocks from reasoning models
     text = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL).strip()
     
-    # Strip markdown code fences if present
-    if text.startswith("```"):
-        lines = text.split("\n")
-        # Remove first and last lines (code fences)
-        lines = [l for l in lines if not l.strip().startswith("```")]
-        text = "\n".join(lines).strip()
+    # Extract JSON object even if LLM chatters before/after
+    match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+    if match:
+        text = match.group(0)
 
     try:
         parsed = json.loads(text)
