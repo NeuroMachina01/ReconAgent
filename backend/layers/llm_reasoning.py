@@ -276,7 +276,7 @@ def llm_reason(
         start_ms = time.time()
         try:
             completion = client.chat.completions.create(
-                model="qwen/qwen3.8-27b",
+                model="qwen/qwen3.6-27b",
                 messages=messages,
                 temperature=0.1,
                 max_tokens=2000,
@@ -316,7 +316,7 @@ def llm_reason(
                 "reasoning": parsed["reasoning"],
                 "status": status,
                 "method": "llm_reasoning",
-                "model": "qwen/qwen3.8-27b",
+                "model": "qwen/qwen3.6-27b",
                 "latency_ms": latency_ms,
                 "attempts": attempt + 1,
                 "candidates_shown": [c["invoice_id"] for c in candidates],
@@ -347,7 +347,7 @@ def llm_reason(
         "reasoning": "Force-escalated: LLM failed validation after max retries",
         "status": "exception",
         "method": "llm_reasoning_force_escalate",
-        "model": "qwen/qwen3.8-27b",
+        "model": "qwen/qwen3.6-27b",
         "latency_ms": 0,
         "attempts": max_retries,
         "candidates_shown": [c["invoice_id"] for c in candidates],
