@@ -126,7 +126,7 @@ const Home = () => {
               </div>
               <div className="pt-2">
                 <h4 className="text-signal font-bold mb-1">LAYER 0: Deterministic Rules</h4>
-                <p className="text-xs text-chalk/60">Instantly clears ~90% of payments with exact amount & date matches. Zero AI cost.</p>
+                  <p className="text-xs text-chalk/60 leading-relaxed">Instantly clears the maximum number of standard payments using strict equality checks. If a rule can settle it, we do it with zero AI cost.</p>
               </div>
             </div>
 
@@ -135,8 +135,8 @@ const Home = () => {
                 <BrainCircuit size={20} className="text-blue-400" />
               </div>
               <div className="pt-2">
-                <h4 className="text-blue-400 font-bold mb-1">LAYER 1: Semantic Retrieval</h4>
-                <p className="text-xs text-chalk/60">TF-IDF + fuzzy matching fetches the top 5 most likely invoice candidates for anomalies.</p>
+                <h4 className="text-blue-400 font-bold mb-1">LAYER 1: Hybrid Retrieval</h4>
+                  <p className="text-xs text-chalk/60 leading-relaxed">Fuses BM25 text similarity, amount proximity, and date proximity using Reciprocal Rank Fusion to fetch the top 5 candidates.</p>
               </div>
             </div>
 
@@ -145,8 +145,8 @@ const Home = () => {
                 <Activity size={20} className="text-purple-400" />
               </div>
               <div className="pt-2">
-                <h4 className="text-purple-400 font-bold mb-1">LAYER 2: LLM Reasoning</h4>
-                <p className="text-xs text-chalk/60">An autonomous agent analyzes candidates, extracts garbled context, and outputs a strict JSON decision.</p>
+                <h4 className="text-purple-400 font-bold mb-1">LAYER 2: Agentic LLM Reasoning</h4>
+                  <p className="text-xs text-chalk/60 leading-relaxed">An autonomous agent analyzes the pre-vetted candidates and outputs a strict JSON decision, protected by code-enforced guardrails.</p>
               </div>
             </div>
 
@@ -156,7 +156,7 @@ const Home = () => {
               </div>
               <div className="pt-2">
                 <h4 className="text-alarm font-bold mb-1">LAYER 3: Human Escalation</h4>
-                <p className="text-xs text-chalk/60">Irresolvable orphans or low-confidence matches are safely quarantined for human review.</p>
+                  <p className="text-xs text-chalk/60 leading-relaxed">Irresolvable anomalies and true orphans are safely quarantined. The agent knows exactly when to ask a human for help.</p>
               </div>
             </div>
           </div>
