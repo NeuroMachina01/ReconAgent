@@ -57,10 +57,10 @@ SYSTEM_PROMPT = """You are a reconciliation analyst. You are given one payment a
 
 Respond as JSON:
 {
+  "reasoning": "one sentence of step-by-step logic",
   "decision": "MATCH" | "PARTIAL_MATCH" | "MULTI_MATCH" | "ESCALATE",
   "invoice_ids": [...],
-  "confidence": 0.0-1.0,
-  "reasoning": "one sentence"
+  "confidence": 0.0-1.0
 }"""
 
 # Four few-shot examples (all required per spec — escalate example is NOT optional)
@@ -78,7 +78,7 @@ FEW_SHOT_EXAMPLES = [
     },
     {
         "role": "assistant",
-        "content": json.dumps({"decision": "MATCH", "invoice_ids": ["INV-2026-0100"], "confidence": 0.95, "reasoning": "Amount matches exactly, date is within 1 day, and the invoice ID appears in the payment reference."}),
+        "content": json.dumps({"reasoning": "Amount matches exactly, date is within 1 day, and the invoice ID appears in the payment reference.", "decision": "MATCH", "invoice_ids": ["INV-2026-0100"], "confidence": 0.95}),
     },
     # 2. Partial payment
     {
