@@ -275,9 +275,9 @@ def llm_reason(
         start_ms = time.time()
         try:
             completion = client.chat.completions.create(
-                model="openai/gpt-oss-120b",
+                model="qwen/qwen3.6-27b",
                 messages=messages,
-                temperature=0.1,
+                temperature=0.0,
                 max_tokens=2000,
             )
             latency_ms = int((time.time() - start_ms) * 1000)
