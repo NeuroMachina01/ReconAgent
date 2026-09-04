@@ -36,21 +36,20 @@ Passing 10,000 messy transactions to an LLM directly is economically unviable (t
 ## 🚀 Quick Start
 
 ### 1. Backend & Environment Setup (Groq API Key)
-The LLM Reasoning engine (Layer 2) runs on Qwen 3.6-27B via Groq. You must set a Groq API key to process the batch.
+The LLM Reasoning engine (Layer 2) runs on Qwen 3.6-27B via Groq. You must provide a Groq API key to process the batch.
 
-Create a `.env` file in the `backend/` directory:
-```bash
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-Then, set up the environment:
 ```bash
 cd backend
+
+# 1. Create your .env file instantly
+echo "GROQ_API_KEY=your_groq_api_key_here" > .env
+
+# 2. Setup Python environment
 python -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
 
-# Start the API
+# 3. Start the API
 uvicorn api.server:app --port 8000
 ```
 
