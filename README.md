@@ -35,7 +35,15 @@ Passing 10,000 messy transactions to an LLM directly is economically unviable (t
 
 ## 🚀 Quick Start
 
-### 1. Backend (FastAPI + LangGraph)
+### 1. Backend & Environment Setup (Groq API Key)
+The LLM Reasoning engine (Layer 2) runs on Qwen 3.6-27B via Groq. You must set a Groq API key to process the batch.
+
+Create a `.env` file in the `backend/` directory:
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+Then, set up the environment:
 ```bash
 cd backend
 python -m venv venv
