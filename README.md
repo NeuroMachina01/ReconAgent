@@ -2,7 +2,7 @@
 
 > **Autonomous Accounts Receivable (AR) & Bank Reconciliation Controller**
 
-![ReconAgent Demo UI](./frontend/public/demo.png) *(Note: Replace with actual screenshot)*
+### 🔴 [Live Demo: ReconAgent Working Prototype](https://recon-agent-dusky.vercel.app/)
 
 ReconAgent is a production-grade FinOps pipeline that ingests messy bank payment data (JSON/BAI2) and matches it against an open invoice ledger. Instead of relying on a fragile LLM for the entire workload, ReconAgent implements a **multi-layered triaging architecture** to optimize for 100% precision, token efficiency, and predictable human escalation.
 
