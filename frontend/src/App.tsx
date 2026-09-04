@@ -9,7 +9,8 @@ import { Receipt } from './components/Receipt';
 import { Toaster, toast } from 'sonner';
 
 const queryClient = new QueryClient();
-const API_URL = "https://reconagent-5vr5.onrender.com";
+// Support local testing via .env.local while defaulting to production Render backend
+const API_URL = import.meta.env.VITE_API_URL || "https://reconagent-5vr5.onrender.com";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
