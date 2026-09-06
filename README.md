@@ -12,13 +12,14 @@ ReconAgent routes transactions through a 4-layer pipeline orchestrated by **Lang
 
 ```mermaid
 graph TD
-    A[Dirty Payment Records] --> B{Layer 0: Deterministic}
-    B -- Exact Match (90%) --> C[Auto-Reconciled]
-    B -- No Exact Match --> D[Layer 1: Semantic Retrieval]
+    A[Dirty Payment Records] --> B{Layer 0: Deterministic Rules}
+    B -- Exact Match --> C[Auto-Reconciled]
+    B -- No Exact Match --> D{Layer 1: Hybrid Retrieval}
     D -- Top 5 Candidates --> E{Layer 2: LLM Reasoning}
-    E -- Confidence >= 0.85 --> F[AI Resolved]
-    E -- Confidence < 0.85 --> G[Layer 3: Human Escalation]
-    E -- API Rate Limit / Failure --> G
+    D -- Score Below Threshold --> G[Layer 3: Human Escalation]
+    E -- Match Found & Confident --> F[AI Resolved]
+    E -- Low Confidence / Escalate --> G
+    E -- Max Retries / API Failure --> G
     
     style B fill:#00FF9D,stroke:#333,stroke-width:2px,color:black
     style D fill:#60A5FA,stroke:#333,stroke-width:2px,color:black
@@ -26,12 +27,12 @@ graph TD
     style G fill:#FF3366,stroke:#333,stroke-width:2px,color:black
 ```
 
-### 🧠 Why This Approach? (Unit Economics & Safety)
+### 💡 Why This Approach? (Unit Economics & Safety)
 Passing 10,000 messy transactions to an LLM directly is economically unviable (token costs) and dangerous (hallucinations). 
-- **Layer 0** handles 90% of clean data instantly for **$0.00**.
-- **Layer 1 (RAG)** limits the LLM's context window by fetching only the mathematically closest invoice candidates using TF-IDF.
+- **Layer 0** handles clean data instantly for **$0.00**.
+- **Layer 1** limits the LLM's context window by fetching only the mathematically closest invoice candidates using **BM25 and Reciprocal Rank Fusion (RRF)**.
 - **Layer 2 (Agent)** acts purely as a reasoning engine for the messy edge cases (garbled names, bulk partial payments, currency offset rounding).
-- **Layer 3 (Quarantine)** explicitly traps anomalies that fall below the strict `0.85` confidence threshold, guaranteeing **100% Precision**.
+- **Layer 3 (Quarantine)** explicitly traps anomalies and AI failures, guaranteeing **100% Precision**.
 
 ## 🚀 Quick Start
 
