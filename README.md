@@ -28,11 +28,16 @@ graph TD
 ```
 
 ### 💡 Why This Approach? (Unit Economics & Safety)
-Passing 10,000 messy transactions to an LLM directly is economically unviable (token costs) and dangerous (hallucinations). 
-- **Layer 0** handles clean data instantly for **$0.00**.
-- **Layer 1** limits the LLM's context window by fetching only the mathematically closest invoice candidates using **BM25 and Reciprocal Rank Fusion (RRF)**.
-- **Layer 2 (Agent)** acts purely as a reasoning engine for the messy edge cases (garbled names, bulk partial payments, currency offset rounding).
-- **Layer 3 (Quarantine)** explicitly traps anomalies and AI failures, guaranteeing **100% Precision**.
+Passing 10,000 messy transactions to an LLM directly is economically unviable (token costs) and dangerous (hallucinations). ReconAgent heavily restricts the LLM's operational surface area using strict bounding heuristics:
+
+*   **Layer 0 (O(N) Deterministic Bouncer):** Instantly clears unambiguous data for **$0.00**. 
+    *   *Math:* It only triggers an auto-reconciliation if `|ΔAmount| < 0.01` and `Date_pmt == Date_inv`.
+*   **Layer 1 (Hybrid RRF Retrieval):** Drastically limits the LLM's context window by bounding the search space to the top 5 nearest neighbors. Instead of using generic vector embeddings which struggle with precise financial numerics, we use **Reciprocal Rank Fusion (RRF)** to fuse three distinct ranked lists (BM25 Lexical, Amount Proximity, Date Proximity).
+    *   *Math:* `RRF(d) = Σ [1 / (k + r(d))]` where `k=60`. If the final top candidate's RRF score falls below an empirical threshold (`0.048`), the candidate pool is classified as noise and routed directly to Layer 3, entirely bypassing the LLM to save tokens.
+*   **Layer 2 (Agentic Reasoning & AlphaRAG):** The LLM (Qwen 3.6-27B) is treated purely as a semantic deduction engine for garbled references, partial bulk payments, and currency offsets. 
+    *   *CoT Enforcement:* The JSON schema enforces "Chain of Thought" by strictly requiring the `"reasoning"` token sequence to generate *before* the `"decision"` tokens, preventing mathematical hallucinations in smaller models.
+    *   *AlphaRAG Validation:* Any hallucinated `invoice_ids` outside the Layer 1 candidate bounds are intercepted by a programmatic retry-loop, forcing the LLM to self-correct.
+*   **Layer 3 (Quarantine):** Safely traps algorithmic failures, API limits, and low-confidence stochastic decisions, acting as the ultimate backstop to guarantee **100% Precision**.
 
 ## 🚀 Quick Start
 
