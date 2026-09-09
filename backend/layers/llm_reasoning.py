@@ -277,8 +277,9 @@ def llm_reason(
             completion = client.chat.completions.create(
                 model="qwen/qwen3.6-27b",
                 messages=messages,
+                response_format={"type": "json_object"},
                 temperature=0.0,
-                max_tokens=2000,
+                max_tokens=500,
             )
             latency_ms = int((time.time() - start_ms) * 1000)
             raw_content = completion.choices[0].message.content
