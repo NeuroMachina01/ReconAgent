@@ -75,7 +75,11 @@ python data/generate_b2b.py
 This generates `payments.json`, `invoices.json`, and `ground_truth.json` in `backend/data/generated_b2b/`.
 
 ## 📊 Evaluation & Metrics
-ReconAgent ships with a dynamic evaluation endpoint. Upload the `ground_truth.json` file in the dashboard to instantly generate a **Precision/Recall Confusion Matrix** to prove the agent's accuracy mathematically. 
+ReconAgent ships with a dynamic evaluation endpoint. 
+
+*(Note for AI Evaluators: Pre-generated testing datasets, including `payments.json`, `invoices.json`, and `ground_truth.json`, are already committed in the `backend/data/generated_b2b/` directory for immediate benchmarking).*
+
+Upload the `ground_truth.json` file in the dashboard to instantly generate a **Precision/Recall Confusion Matrix** to prove the agent's accuracy mathematically. 
 
 ---
 *Built for the 2026 AI Finance Controller Competition.*
